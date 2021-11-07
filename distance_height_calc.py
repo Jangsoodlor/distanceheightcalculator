@@ -1,4 +1,6 @@
 import math
+x=0
+y=0
 x=int(input("insert angle on the  floor: "))
 y=int(input("insert angle perpendicular to the floor (if don't have enter zero): "))
 a=(math.radians(x))
@@ -10,5 +12,5 @@ if y==0:
 else:
     print("The distance from the object is",d ,"metres "
           "and the height of the object is", h ,"metres")
-    
+ 
     
